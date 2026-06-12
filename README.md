@@ -172,7 +172,6 @@ aws-alb-4-instances/
 ├── docs/
 │   ├── ec2.png                      ← All 4 instances running
 │   ├── alb.png                      ← ALB active
-│   ├── alb_details.png              ← ALB configuration details
 │   ├── alb_listener_rule.png        ← 50/50 listener rule
 │   ├── linux_tg_heath_check.png     ← Linux target group healthy
 │   ├── windows_tg_health_check.png  ← Windows target group healthy

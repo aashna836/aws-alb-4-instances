@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Windows Server 1</title>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #0d1117;
+      color: #e6edf3;
+      font-family: 'Inter', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      background: #161b22;
+      border: 1px solid #8957e5;
+      border-radius: 16px;
+      padding: 48px;
+      text-align: center;
+      max-width: 480px;
+      width: 90%;
+    }
+    .icon { font-size: 64px; margin-bottom: 24px; }
+    .tag {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      color: #bc8cff;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+    h1 { font-size: 28px; font-weight: 600; margin-bottom: 8px; }
+    .subtitle { color: #8b949e; font-size: 15px; margin-bottom: 32px; }
+    .info {
+      background: #0d1117;
+      border-radius: 10px;
+      padding: 20px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      text-align: left;
+    }
+    .info-row { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #21262d; }
+    .info-row:last-child { border-bottom: none; }
+    .info-key { color: #8b949e; }
+    .info-val { color: #bc8cff; }
+    .footer { margin-top: 24px; font-size: 12px; color: #8b949e; font-family: 'JetBrains Mono', monospace; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon">🪟</div>
+    <div class="tag">Windows Target Group</div>
+    <h1>Windows Server 1</h1>
+    <p class="subtitle">You are being served by the first Windows instance</p>
+    <div class="info">
+      <div class="info-row"><span class="info-key">Instance</span><span class="info-val">Windows-1</span></div>
+      <div class="info-row"><span class="info-key">OS</span><span class="info-val">Windows Server 2022</span></div>
+      <div class="info-row"><span class="info-key">Target Group</span><span class="info-val">windows-tg</span></div>
+      <div class="info-row"><span class="info-key">Status</span><span class="info-val">✓ Healthy</span></div>
+    </div>
+    <div class="footer">AWS ALB Project — refresh to hit a different instance</div>
+  </div>
+</body>
+</html>

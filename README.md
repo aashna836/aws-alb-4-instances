@@ -73,6 +73,20 @@ Internet
 ### Direct IP Access — Blocked ❌
 ![IP Blocked](docs/ip_not_accessed_directly.png)
 
+## 🖥️ All 4 Servers Serving Pages via ALB
+
+### Linux Server 1
+![Linux 1](docs/linux1.png)
+
+### Linux Server 2
+![Linux 2](docs/linux2.png)
+
+### Windows Server 1
+![Windows 1](docs/windows1.png)
+
+### Windows Server 2
+![Windows 2](docs/windows2.png)
+
 ---
 
 ## ☁️ AWS Services Used

@@ -150,11 +150,10 @@ Instances are spread across **3 availability zones** — if one AZ goes down, tr
 ```
 aws-alb-4-instances/
 │
-├── website/
-│   ├── linux1.html       ← Served by Linux instance 1 (green)
-│   ├── linux2.html       ← Served by Linux instance 2 (blue)
-│   ├── windows1.html     ← Served by Windows instance 1 (purple)
-│   └── windows2.html     ← Served by Windows instance 2 (orange)
+├── linux1.html       ← Served by Linux instance 1 (green)
+├── linux2.html       ← Served by Linux instance 2 (blue)
+├── windows1.html     ← Served by Windows instance 1 (purple)
+├── windows2.html     ← Served by Windows instance 2 (orange)
 │
 ├── docs/
 │   ├── ec2.png                      ← All 4 instances running
@@ -166,7 +165,10 @@ aws-alb-4-instances/
 │   ├── tg.png                       ← Both target groups
 │   ├── sg_showing_alb_sg.png        ← Security group chaining
 │   ├── ip_not_accessed_directly.png ← Direct IP blocked proof
-│   └── alb_serving_pages.mov        ← Screen recording of load balancing
+│   ├── linux1.png                   ← Linux 1 serving page (green)
+│   ├── linux2.png                   ← Linux 2 serving page (blue)
+│   ├── windows1.png                 ← Windows 1 serving page (purple)
+│   └── windows2.png                 ← Windows 2 serving page (orange)
 │
 └── README.md
 ```
